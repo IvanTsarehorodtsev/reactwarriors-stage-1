@@ -1,0 +1,45 @@
+.moviesList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.moviesList .card {
+    width: 31%;
+    margin-bottom: 20px;
+}
+
+.moviesList .card h6 {
+    margin-bottom: 10px;
+}
+
+.moviesList .card .ratingBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.moviesList .card .ratingBlock .rating {
+    margin-bottom: 0;
+}
+
+.willWatchList {
+    padding-top: 20px;
+    position: fixed;
+}
+
+.willWatchList .willWatchCount {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.moviesWillWatchList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
